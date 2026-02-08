@@ -46,22 +46,25 @@ interactive charts and KPIs that help stakeholders quickly interpret customer va
 
 ## Project Structure
 
+## Project Structure
+
+```text
 clv_dashboard/
 │
 ├── .streamlit/
-│   └── config.toml                # Streamlit UI and theme configuration
+│   └── config.toml          # Streamlit UI and theme configuration
 │
-├── data/                          # Raw CSV datasets
+├── data/                    # Raw CSV datasets
 │   ├── dataset1.csv
 │   └── dataset2.csv
 │
-├── processed_data/                # Cleaned and optimized datasets
+├── processed_data/          # Cleaned and optimized datasets
 │   ├── customer_wise.parquet
 │   └── segment_wise.parquet
 │
-├── app.py                         # Streamlit dashboard application
-├── requirements.txt               # Project dependencies
-└── README.md                      # Project documentation
+├── app.py                   # Streamlit dashboard application
+├── requirements.txt         # Project dependencies
+└── README.md                # Project documentation
 
 ---
 
