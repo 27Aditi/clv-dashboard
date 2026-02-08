@@ -65,7 +65,7 @@ clv_dashboard/
 ├── app.py                   # Streamlit dashboard application
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
-
+```
 ---
 
 ## How to Run Locally
