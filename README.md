@@ -80,7 +80,7 @@ clv_dashboard/
 
 ## Live Application
 
-https://your-streamlit-app-url.streamlit.app
+https://dashboardclv.streamlit.app/
 
 ---
 
