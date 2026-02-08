@@ -37,8 +37,8 @@ st.caption("Understand customer value, segments and revenue contribution")
 
 @st.cache_data
 def load_data():
-    customerdf = pd.read_parquet('C:\\Users\\bhatn\\OneDrive\\Desktop\\AditiNew\\PROJECT\\clv_dashboard\\processed_data\\customer_wise.parquet')
-    segmentdf = pd.read_parquet('C:\\Users\\bhatn\\OneDrive\\Desktop\\AditiNew\\PROJECT\\clv_dashboard\\processed_data\\segment_wise.parquet')
+    customerdf = pd.read_parquet('processed_data/customer_wise.parquet')
+    segmentdf = pd.read_parquet('processed_data/segment_wise.parquet')
     segmentdf.reset_index(inplace = True)
     return customerdf, segmentdf
 
